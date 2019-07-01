@@ -21,7 +21,7 @@ function priceRange(hotelsArr) {
 }
 // big O time of N
 
-// could pre-sort array then just have constant time lookup
+// could pre-sort array then just have constant time lookup.
 function priceRangeSort(hotelsArr) {
   hotelsArr.sort((a, b) => {
     return a.price - b.price;
